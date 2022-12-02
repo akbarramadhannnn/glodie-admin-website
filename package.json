@@ -99,7 +99,7 @@
   },
   "scripts": {
     "start": "cross-env REACT_APP_ENV=development react-scripts start",
-    "build:stagging": "cross-env REACT_APP_ENV=stagging --max_old_space_size=8000 build",
+    "build:stagging": "cross-env REACT_APP_ENV=stagging react-scripts --max_old_space_size=8000 build",
     "build": "cross-env REACT_APP_ENV=production react-scripts --max_old_space_size=8000 build",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
